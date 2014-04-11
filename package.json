@@ -1,0 +1,29 @@
+{
+  "name": "gulp-browserify-wrapper",
+  "version": "1.0.0",
+  "description": "A small gulp plugin that wraps browserify, that uses a new browserify instance for each main entry file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattbenton/gulp-browserify-wrapper.git"
+  },
+  "keywords": [
+    "gulp",
+    "plugin",
+    "browserify"
+  ],
+  "author": "Matt Benton <matt@mattbenton.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattbenton/gulp-browserify-wrapper/issues"
+  },
+  "homepage": "https://github.com/mattbenton/gulp-browserify-wrapper",
+  "dependencies": {
+    "browserify": "^3.41.0",
+    "through2": "^0.4.1",
+    "gulp-util": "^2.2.14"
+  }
+}
