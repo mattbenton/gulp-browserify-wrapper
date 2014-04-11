@@ -1,6 +1,6 @@
 {
   "name": "gulp-browserify-wrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small gulp plugin that wraps browserify, that uses a new browserify instance for each main entry file.",
   "main": "index.js",
   "scripts": {
